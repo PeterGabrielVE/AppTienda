@@ -20,7 +20,8 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         'http://apptienda.test/productos',
-        'http://apptienda.test/productos/software'
+        'http://apptienda.test/productos/software',
+        'http://apptienda.test/api/empleados'
 
     ];
 }
