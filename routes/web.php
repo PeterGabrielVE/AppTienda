@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('productos', function (){
+/*Route::get('productos', function (){
 	return 'Listado de Productos';
 });
 
@@ -30,4 +30,4 @@ Route::post('productos', function (){
 
 Route::put('productos/{id}', function (){
 	return 'Actualizando Producto';
-});
+});*/
