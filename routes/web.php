@@ -12,10 +12,18 @@
 */
 
 Route::get('/', function () {
+    return view('app');
+});
+
+
+/*
+
+Route::get('/', function () {
     return view('welcome');
 });
 
-/*Route::get('productos', function (){
+
+Route::get('productos', function (){
 	return 'Listado de Productos';
 });
 
